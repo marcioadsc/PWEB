@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brincando de calcular!</title>
+</head>
+<body>
+    <script>
+    
+        var num1, num2, soma, sub, prod, div, res, a;
+
+        num1 = prompt("Vamos calcular! Digite o 1° número.");
+        num2 = prompt("Digite agora o 2º número.");
+
+            soma = parseFloat(num1) + parseFloat(num2);
+            sub = parseFloat(num1) - parseFloat(num2);
+            prod = parseFloat(num1) * parseFloat(num2);
+            div = parseFloat(num1) / parseFloat(num2);
+            res = parseFloat(num1) % parseFloat(num2);
+
+        alert("A soma é: " + soma +
+            "\nA subtração é: " + sub +
+            "\nO produto é: " + prod +
+            "\nA divisão é: " + div.toFixed(2) +
+            "\nO resto da divisão é: " + res)
+    </script>
+</body>
+</html>
