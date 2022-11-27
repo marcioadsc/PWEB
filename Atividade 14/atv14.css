@@ -1,0 +1,16 @@
+html{
+    background-color: #6b924b;
+}
+
+h1, h2{
+    color: white;
+    font-size: 30px;
+}
+
+p{
+    color: white;
+}
+
+label{
+    color: white;
+}
