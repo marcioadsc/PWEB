@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(88, 68, 178);
+    align-items: center;
+}
+
+label{
+    font-weight: bolder;
+}
+
+option{
+    color: rgb(26, 0, 219);
+    font-weight: bolder;
+}
+
